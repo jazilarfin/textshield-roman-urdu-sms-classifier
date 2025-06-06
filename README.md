@@ -39,3 +39,9 @@ All processing was performed using a Colab notebook:
 
 ## 📁 Files Included
 
+📂 textshield-ml
+├── TextShield_Model_Development.ipynb # Complete ML pipeline
+├── dataset.csv # Labeled bilingual SMS messages
+├── logistic_model.pkl # Final trained classifier
+├── vectorizer.pkl # TF-IDF vectorizer used for transformation
+├── README.md
