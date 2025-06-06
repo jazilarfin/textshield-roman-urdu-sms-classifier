@@ -37,11 +37,31 @@ All processing was performed using a Colab notebook:
 
 ---
 
-## 📁 Files Included
 
-📂 textshield-ml
-├── TextShield_Model_Development.ipynb # Complete ML pipeline
-├── dataset.csv # Labeled bilingual SMS messages
-├── logistic_model.pkl # Final trained classifier
-├── vectorizer.pkl # TF-IDF vectorizer used for transformation
-├── README.md
+---
+
+## 🧠 Final Model Info
+
+- **Vectorizer**: TF-IDF (unigram + bigram)  
+- **Classifier**: Logistic Regression  
+- **Test Accuracy**: ~97%  
+- **Overfitting/Underfitting**: No  
+- **Language Coverage**: Roman Urdu + English
+
+---
+
+## 👤 Maintainer
+
+This repo reflects my core contributions to the **ML pipeline**, including:
+
+- Data collection & annotation  
+- Model experimentation & optimization in Google Colab  
+- Saving models for deployment  
+
+---
+
+## 🌐 Web Interface (Built on This Model)
+
+The trained model and vectorizer from this repository were used in a full-stack web app:  
+🔗 [View Web Interface on GitHub](https://github.com/Abdul-Diyan/Ai_project)
+
