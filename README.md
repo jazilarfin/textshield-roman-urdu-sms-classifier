@@ -59,6 +59,16 @@ This repo reflects my core contributions to the **ML pipeline**, including:
 
 ---
 
+## 📁 Files Included
+
+textshield-ml/<br/>
+├── TextShield_Model_Development.ipynb # Complete ML pipeline<br/>
+├── dataset.csv # Labeled bilingual SMS messages<br/>
+├── logistic_model.pkl # Final trained classifier<br/>
+├── vectorizer.pkl # TF-IDF vectorizer
+
+---
+
 ## 🌐 Web Interface (Built on This Model)
 
 The trained model and vectorizer from this repository were used in a full-stack web app:  
