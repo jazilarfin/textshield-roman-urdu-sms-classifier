@@ -44,7 +44,7 @@ All processing was performed using a Colab notebook:
 
 - **Vectorizer**: TF-IDF (unigram + bigram)  
 - **Classifier**: Logistic Regression  
-- **Test Accuracy**: ~97%  
+- **Test Accuracy**: ~90%  
 - **Overfitting/Underfitting**: No  
 - **Language Coverage**: Roman Urdu + English
 
@@ -64,4 +64,6 @@ This repo reflects my core contributions to the **ML pipeline**, including:
 
 The trained model and vectorizer from this repository were used in a full-stack web app:  
 🔗 [View Web Interface on GitHub](https://github.com/Abdul-Diyan/Ai_project)
+
+![Screenshot 1](media/pic1.jpg)
 
