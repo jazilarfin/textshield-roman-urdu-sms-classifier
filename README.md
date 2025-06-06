@@ -8,16 +8,16 @@ This repository contains the **core ML development** done in Google Colab, inclu
 
 ## 💡 Project Highlights
 
-- Custom data collection & manual labeling  
-- Support for mixed-language (Roman Urdu + English) messages  
-- Comprehensive text preprocessing pipeline  
-- Feature extraction with:  
-  - Bag of Words  
-  - TF-IDF  
-- Evaluation of multiple ML models:  
-  - Logistic Regression  
-  - Naive Bayes  
-  - Random Forest  
+- Custom data collection & manual labeling
+- Support for mixed-language (Roman Urdu + English) messages
+- Comprehensive text preprocessing pipeline
+- Feature extraction with:
+  - Bag of Words
+  - TF-IDF
+- Evaluation of multiple ML models:
+  - Logistic Regression
+  - Naive Bayes
+  - Random Forest
 - Final model saved as `.pkl` for deployment
 
 ---
@@ -29,23 +29,22 @@ All processing was performed using a Colab notebook:
 
 ### Key Steps
 
-- Load and label SMS dataset  
-- Clean and normalize bilingual text  
-- Vectorize using `CountVectorizer` and `TfidfVectorizer`  
-- Train multiple classifiers and compare accuracy  
+- Load and label SMS dataset
+- Clean and normalize bilingual text
+- Vectorize using `CountVectorizer` and `TfidfVectorizer`
+- Train multiple classifiers and compare accuracy
 - Export best-performing model + vectorizer
 
 ---
-
 
 ---
 
 ## 🧠 Final Model Info
 
-- **Vectorizer**: TF-IDF (unigram + bigram)  
-- **Classifier**: Logistic Regression  
-- **Test Accuracy**: ~90%  
-- **Overfitting/Underfitting**: No  
+- **Vectorizer**: TF-IDF (unigram + bigram)
+- **Classifier**: Logistic Regression
+- **Test Accuracy**: ~90%
+- **Overfitting/Underfitting**: No
 - **Language Coverage**: Roman Urdu + English
 
 ---
@@ -54,9 +53,9 @@ All processing was performed using a Colab notebook:
 
 This repo reflects my core contributions to the **ML pipeline**, including:
 
-- Data collection & annotation  
-- Model experimentation & optimization in Google Colab  
-- Saving models for deployment  
+- Data collection & annotation
+- Model experimentation & optimization in Google Colab
+- Saving models for deployment
 
 ---
 
@@ -65,5 +64,4 @@ This repo reflects my core contributions to the **ML pipeline**, including:
 The trained model and vectorizer from this repository were used in a full-stack web app:  
 🔗 [View Web Interface on GitHub](https://github.com/Abdul-Diyan/Ai_project)
 
-![Screenshot 1](media/pic1.jpg)
-
+![Screenshot 1](textshield-ml/media/1.jpg)
